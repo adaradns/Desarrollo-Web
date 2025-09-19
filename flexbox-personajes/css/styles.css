@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    background-color: rgb(164, 235, 1);
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    row-gap: 1rem;
+    
+}
+
+.box-hero {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px -5px rgb(95, 95, 95);
+    width: 90vw; 
+    
+}
+
+.box-hero h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 42);
+    width: 90vw;
+    height: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box-hero span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-weight: bold;
+    
+}
+
+.box-hero .skill {
+    width: 50vw;
+    height: 5px;
+    background-color: rgb(0, 255, 42);
+}
+
+.box-hero a {
+    background-color: rgb(0, 255, 42);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 50vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box-hero a:hover {
+    background-color: rgb(128, 247, 148);
+}

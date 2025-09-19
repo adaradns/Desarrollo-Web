@@ -1,0 +1,32 @@
+*{
+    margin: 4px;
+    padding: 5px;
+}
+body {
+    border: solid 2px black;
+}
+
+.container {
+    background-color: cadetblue;
+    padding: 1em;
+}
+
+h1.title {
+    background-color: aquamarine;
+}
+
+strong.important-text {
+    background-color: red;
+}
+
+a{
+    background-color: blueviolet;
+}
+
+button {
+    background-color: rgb(149, 149, 238);
+}
+
+p.text {
+    background-color: bisque;
+}

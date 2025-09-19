@@ -1,0 +1,10 @@
+ body {
+     background-color: rgb(255, 255, 255);
+ }
+
+ pre {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: greenyellow;
+ }

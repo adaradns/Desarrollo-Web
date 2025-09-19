@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>Editor CSS en Linea</title>
+</head>
+
+<body>
+    <h1>Editor CSS</h1>
+    <h2>Flexbox</h2>
+    <div class="container">
+        <div class="item">hola</div>
+        <div class="item">mundo</div>
+        <div class="item">Caja 1</div>
+        <div class="item">Esto es una prueba asdasdasd</div>
+    </div>
+    <pre>
+        <style  
+            contenteditable           
+            style="display: block;"
+        >
+                   
+            .container {
+                display: flex;
+                background-color: lightgoldenrodyellow;
+                padding: 1em;
+                flex-wrap: wrap;
+                /* flex-flow: row wrap; */
+                justify-content: center;
+                align-content: center;
+            }
+            .item {
+                background-color: gold;
+                padding: 1em;
+                width: 50px;
+                height: 150px;
+                border: 1px solid black;
+                margin: 5px;
+            }
+        </style>
+    </pre>
+</body>
+
+</html>
