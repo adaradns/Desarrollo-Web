@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clon - EpicGames</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="EpicGames" />
+                <span>STORE</span>
+            </div>
+
+            <a href="#">Asistencia</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span>Distribuir</span>
+                    <div class="arrow"></div>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Distribuir en la Epic Games Store</a>
+                    <a href="#">Foros de los desarrolladores</a>
+                    <a href="#">Documentación</a>
+                    <a href="#">Aprendizaje</a>
+                </div>
+            </div>
+        </nav>
+        <div class="actions">
+            <button class="login">Iniciar sesión</button>
+            <button class="install">Instalar</button>
+        </div>
+    </header>
+    <section class="search-content">
+        <div class="search">
+            <input type="text" placeholder="Buscar en la Store...">
+        </div>
+    </section>
+    <div class="carousel">
+        <!-- Radios -->
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+        <input type="radio" name="slides" id="slide4">
+        <input type="radio" name="slides" id="slide5">
+
+        <!-- Slides -->
+        <div class="slides">
+            <div class="slide">
+                <img src="assets/carousel-images/borderlans-4.avif" alt="borderlans-4">
+                <div class="about">
+                    <span class="lengend">Recupera un 20 % en recompensas de Epic</span>
+                    <span class="description">Hazte con Borderlands 4 en la Epic Games Store y conseguirás el lote de
+                        Mad Moxxi en Fortnite.</span>
+                    <span class="price">69,99 US$</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/carousel-images/fortnite-delulu.webp" alt="fortnite">
+                <div class="about">
+                    <span class="lengend">Ya disponible</span>
+                    <span class="description">Haz amigos, rompe alianzas y sobrevive hasta el final en Delulu, un modo
+                        de juego por tiempo limitado para los fines de semana.</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/carousel-images/fc.webp" alt="FC">
+                <div class="about">
+                    <span class="lengend">Comienza tu temporada ahora</span>
+                    <span class="description">Juega ya a la Ultimate Edition para disfrutar de hasta 7 días de acceso anticipado y el pase prémium de la Temporada 1.</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/carousel-images/rocket-league.jpg" alt="rocket-league">
+                <div class="about">
+                    <span class="lengend">Nueva temporada</span>
+                    <span class="description">¡Dirigíos a Boostfield Mall en la temporada 20 de Rocket League!.</span>
+                    <span class="price">Gratis</span>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/carousel-images/silent-hill.avif" alt="silent-hill">
+
+                <div class="about">
+                    <span class="lengend">¡Libera a la bestia!</span>
+                    <span class="description">¡Crane ha vuelto! Continúa su historia en esta nueva aventura independiente.</span>
+                    <span class="price">44,99 US$</span>
+                </div>
+            </div>
+        </div>
+        <!-- Controles -->
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+        </div>
+    </div>
+</body>
+
+</html>
