@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Clone - Netflix</title>
+</head>
+<body>
+    <header class="nav">
+    <div class="nav__container">
+      <div class="nav__left">
+        <a class="brand" href="#" aria-label="Nextflix Home">
+            <img src="https://static.vecteezy.com/system/resources/previews/019/956/187/non_2x/netflix-transparent-netflix-free-free-png.png" alt="Logo Netflix" width="100"/>
+        </a>
+        <nav class="nav__links" aria-label="Main">
+          <a href="#">Inicio</a>
+          <a href="#">Series</a>
+          <a href="#">Películas</a>
+          <a href="#">Novedades</a>
+        </nav>
+      </div>
+      <div class="nav__right">        
+        <button class="signin">Iniciar sesión</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" role="banner" aria-label="Destacado">
+      <div class="hero__bg" style="background-image: url('https://occ-0-2923-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABQ3UVg9kBuFAcotHrluJ6gIL59szQaRU0ZR59KIaIAbJs4b-bS_lBIN4TcNbhXTodLNcYSrRw05tZJTCgliHrH8NjM9Q-c7pJ-_2.webp?r=190');"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">Las Guerreras K-pop</h1>
+        <p class="hero__subtitle">Cuando no están llenando estadios, las superestrellas del k‑pop Rumi, Mira y Zoey usan sus superpoderes secretos para proteger a sus fans de amenazas sobrenaturales.</p>
+        <div class="hero__actions">
+          <button class="btn btn--primary">▶ Reproducir</button>
+          <button class="btn btn--ghost">+ Mi lista</button>
+        </div>
+      </div>
+      <div class="hero__bottom-fade"></div>
+    </section>
+
+    <section class="row">
+      <h2 class="row__title">Tendencias</h2>
+      <div class="carousel" tabindex="0" aria-label="Tendencias">
+        <div class="carousel__track">
+          <article class="card">
+            <img src="https://occ-0-2923-3934.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABW7SuLH7l5r77nozWaIkTJ8CBShx3TGLtmHC6ZDnraeQurr6G8rXMIC3h4UMH19jGngsXVNq9MN6IwyaZrFCuKL2514eBiqH9EFP1QrksiontU5Af6TKSJIDJDQdEPB590oV.webp?r=937" alt="K-pop">
+            <div class="card__meta">
+              <h3>Las Guerreras K-POP</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://occ-0-2923-3934.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABco97KxYWZahE10uym2OqgIT9RWTpHV8KXSO79euOayiAn1Yad7n81gCTrdo2ewkyFTPO7tlK6rqEAIWjIhYt6qb4H7Gh0O3Uh2beaSYljak0Qzd4PUDj9BVFHn9amnUNTtw.webp?r=f46" alt="Merlina">
+            <div class="card__meta">
+              <h3>Merlina</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://occ-0-2923-3934.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcrhAaNZU6tXbpVoi9LpbMZmjZX22ZfuOwNmuPy5i4quoB8cWiO-67vbTk07rZyX5YtKKci5c0XoFHJ1vphlx0Rau-hgCpnzEfMORMer4uPuTytZw3q4AMK38cPtc4fjKe2e.webp?r=711" alt="Happy Gilmore">
+            <div class="card__meta">
+              <h3>Happy Gilmore 2</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://occ-0-2923-3934.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWjRKYp3jz8X42elJdm_aZpL0h8kdm3dE2M-j6_phDvfpvF0zajqkUvEU3UZU4W7yn5jP0sooBsUJzjznH26FQg2uAOQcj56AZtwoMVgWVG1fXWAWP9OnIDMrsYYJA9xpaNV.webp?r=9fc" alt="El juego del calamar">
+            <div class="card__meta">
+              <h3>El juego del calamar</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://i0.wp.com/multianime.com.mx/wp-content/uploads/2025/05/Prepara-las-palomitas-porque-Una-Pelicula-de-Minecraft-llega-a-tu-hogar.jpg?fit=640%2C948&ssl=1" alt="Minecraft">
+            <div class="card__meta">
+              <h3>Minecraft</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://pbs.twimg.com/media/EbToOETXkAAd3Oq.jpg:small" alt="Shrek">
+            <div class="card__meta">
+              <h3>Shrek 2</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <h2 class="row__title">Comedias</h2>
+      <div class="carousel" tabindex="0" aria-label="Comedias">
+        <div class="carousel__track">
+          <article class="card">
+            <img src="https://es.web.img3.acsta.net/medias/nmedia/18/90/47/93/20254074.jpg" alt="Hotel Transilvania">
+            <div class="card__meta"><h3>Hotel Transilvania</h3></div>
+          </article>
+          <article class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjM2NmM3NjUtMWU2MS00ZTgyLWEyYWEtN2M2NmE3YTk4MWE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="La Fabrica de Chocolates">
+            <div class="card__meta"><h3>La Fabrica de Chocolates</h3></div>
+          </article>
+          <article class="card">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/34b2d39ed55f6df09da8871919da835dba6e86d68af01079ab75635836f00200.jpg" alt="Donde estan las rubias">
+            <div class="card__meta"><h3>Donde estan las rubias</h3></div>
+          </article>
+          <article class="card">
+            <img src="https://occ-0-2923-3934.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQU76odGTZGEtUEJXeZVvp7EjHmGwamggUrbbQgrAdozfPZVwUe0AJA54l_LajQHQpM2ErKE1HwKtcGmk3VawFWyEak3KlZE53xb.jpg?r=b70" alt="Mi villano favorito">
+            <div class="card__meta"><h3>Mi villano favorito</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>Clone demo — diseño inspirado en Netflix. Hecho con HTML & CSS.</p>
+        <p class="muted">Imágenes de ejemplo.</p>
+        <footer class="footer"><p>&copy; 2025 Sitio web inspirado en Netflix. Para fines edutactivos.</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
