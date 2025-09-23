@@ -10,12 +10,20 @@
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <div class="logo">
-                <img src="./assets/logo.png" alt="EpicGames" />
-                <span>STORE</span>
-            </div>
+        <div class="logo">
+            <img src="./assets/logo.png" alt="EpicGames" />
+            <span>STORE</span>
+        </div>
 
+        <!-- Checkbox para controlar el menú -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav">
             <a href="#">Asistencia</a>
             <div class="dropdown">
                 <button class="dropbtn">
@@ -30,23 +38,26 @@
                 </div>
             </div>
         </nav>
+
         <div class="actions">
             <button class="login">Iniciar sesión</button>
             <button class="install">Instalar</button>
         </div>
     </header>
+
     <section class="search-content">
         <div class="search">
             <input type="text" placeholder="Buscar en la Store...">
         </div>
     </section>
-    <div class="carousel">
+    <section class="carousel">
         <!-- Radios -->
         <input type="radio" name="slides" id="slide1" checked>
         <input type="radio" name="slides" id="slide2">
         <input type="radio" name="slides" id="slide3">
         <input type="radio" name="slides" id="slide4">
         <input type="radio" name="slides" id="slide5">
+        <input type="radio" name="slides" id="slide6">
 
         <!-- Slides -->
         <div class="slides">
@@ -68,10 +79,18 @@
                 </div>
             </div>
             <div class="slide">
+                <img src="assets/carousel-images/fneco.avif" alt="fortnite-2">
+                <div class="about">
+                    <span class="lengend">Ya disponible</span>
+                    <span class="description">¡Invoca el poder de Megazord en Battle Royale de Fortnite!</span>
+                </div>
+            </div>
+            <div class="slide">
                 <img src="assets/carousel-images/fc.webp" alt="FC">
                 <div class="about">
                     <span class="lengend">Comienza tu temporada ahora</span>
-                    <span class="description">Juega ya a la Ultimate Edition para disfrutar de hasta 7 días de acceso anticipado y el pase prémium de la Temporada 1.</span>
+                    <span class="description">Juega ya a la Ultimate Edition para disfrutar de hasta 7 días de acceso
+                        anticipado y el pase prémium de la Temporada 1.</span>
                 </div>
             </div>
             <div class="slide">
@@ -87,7 +106,8 @@
 
                 <div class="about">
                     <span class="lengend">¡Libera a la bestia!</span>
-                    <span class="description">¡Crane ha vuelto! Continúa su historia en esta nueva aventura independiente.</span>
+                    <span class="description">¡Crane ha vuelto! Continúa su historia en esta nueva aventura
+                        independiente.</span>
                     <span class="price">44,99 US$</span>
                 </div>
             </div>
@@ -99,8 +119,30 @@
             <label for="slide3"></label>
             <label for="slide4"></label>
             <label for="slide5"></label>
+            <label for="slide6"></label>
         </div>
-    </div>
+    </section>
+
+    <section class="section-discover">
+        <h2>Descubre algo nuevo</h2>
+        <div class="discover-container">
+            <div class="card-discover">
+                <img src="./assets/discover/garten-of-banban-8-1458y.avif" alt="Garten of Banban 8" />
+                <span class="game-type">Juego base</span>
+                <h3>Garten of Banban 8: Anti Devil</h3>
+                <span class="info-badge">Ya en Epic</span>
+                <span class="price">4,49 US$</span>
+            </div>
+            <div class="card-discover">
+                <img src="./assets/discover/lego-voyagers-1ax2w.avif" alt="Lego" />
+                <span class="game-type">Juego base</span>
+                <h3>LEGO® Voyagers</h3>
+                <span class="discount-badge">-10%</span>
+                <span class="price-old">11,99 US$</span>
+                <span class="price-discount">10,79 US$</span>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
