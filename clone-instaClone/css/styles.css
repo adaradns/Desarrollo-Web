@@ -59,27 +59,118 @@ section.stories-content::-webkit-scrollbar {
   background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
 
-/* la PRIMER historia (tu historia) → borde gris en lugar de degradado */
 .stories-content .story:first-child img {
   margin-bottom: 5px;
   border: solid 2px rgb(199, 197, 194);
   border-radius: 100px;
-  padding: 0;            /* quita el padding del degradado */
-  background: none;      /* elimina el degradado */
+  padding: 0;
+  background: none; /* elimina el degradado */
 }
+
 
 .toolbar-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+  z-index: 50;
 }
 
-.toolbar-bottom ul.toolbar-navigation{
-  border-top: solid 1px rgba(255, 255, 255, 0.39);
-  position: absolute;
-  bottom: 20px;
-  list-style: none;
+.toolbar-navigation {
   display: flex;
-  padding-top: 1rem;
-  gap: 50px;
-  /* padding: 0.5rem; */
-  right:  10px;
+  justify-content: space-around;
   align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar-navigation li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FEED */
+section.feed-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.post {
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-media p{
+  padding: 0.5rem;
+}
+
+.post-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: #000;
+}
+
+.post-actions .left,
+.post-actions .right {
+  display: flex;
+  gap: 10px;
+}
+
+.icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.post span {
+  padding-left: 0.7rem;
 }
